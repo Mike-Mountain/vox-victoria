@@ -46,13 +46,19 @@
               ],
               "outputHashing": "all"
             },
-            "development": {
+            "dev": {
               "buildOptimizer": false,
               "optimization": false,
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
-              "namedChunks": true
+              "namedChunks": true,
+              "fileReplacements": [
+                {
+                  "replace": "apps/dashboard/src/environments/environment.ts",
+                  "with": "apps/dashboard/src/environments/environment.dev.ts"
+                }
+              ]
             }
           },
           "defaultConfiguration": "production"
@@ -63,8 +69,8 @@
             "production": {
               "browserTarget": "dashboard:build:production"
             },
-            "development": {
-              "browserTarget": "dashboard:build:development"
+            "dev": {
+              "browserTarget": "dashboard:build:dev"
             }
           },
           "defaultConfiguration": "development"
