@@ -1,0 +1,41 @@
+.app-landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.time {
+  font-size: 8rem;
+  height: 8rem;
+  position: relative;
+  top: 3rem;
+  color: white;
+  text-shadow: 0 2px rgba(0, 0, 0, 0.4); // TODO: Use the css variable
+}
+
+.greeting {
+  font-size: 3rem;
+  height: 3rem;
+  color: white;
+  text-shadow: 0 2px rgba(0, 0, 0, 0.4); // TODO: Use the css variable
+  position: relative;
+  top: -.5rem;
+}
+
+// TEMPORARY. TODO: Delete
+.search, .bookmarks, .quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.search {
+  margin-top: 2rem;
+  height: 12rem;
+}
+
+.bookmarks {
+  height: 10rem;
+}

@@ -1,6 +1,24 @@
-.app-layout {
+.background {
+  position: relative;
   height: 100%;
+  width: 100%;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url("../../../../assets/images/forestMountains.png") center/cover no-repeat;
+    //filter: blur(2px);
+  }
+}
+
+.app-layout {
+  position: relative;
+  height: 100%;
+  width: 100%;
   display: grid;
   grid-template-rows: max-content 1fr max-content;
-  background: url("../../../../assets/images/forestMountains.png") center/cover no-repeat;
+  background-color: rgba(0, 0, 0, 0.1);
 }

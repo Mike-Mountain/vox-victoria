@@ -8,13 +8,15 @@ import { LayoutComponent } from './components/layout/layout.component';
 import { TopNavigationComponent } from './components/top-navigation/top-navigation.component';
 import { BottomNavigationComponent } from './components/bottom-navigation/bottom-navigation.component';
 import { MatIconModule } from '@angular/material/icon';
+import { LandingComponent } from './components/landing/landing.component';
 
 
 @NgModule({
   declarations: [
     LayoutComponent,
     TopNavigationComponent,
-    BottomNavigationComponent
+    BottomNavigationComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
@@ -24,11 +26,15 @@ import { MatIconModule } from '@angular/material/icon';
     MatIconModule
   ],
   exports: [
+    // Modules:
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
     environment.production ? [] : AkitaNgDevtools,
-    LayoutComponent
+
+    // Components
+    LayoutComponent,
+    LandingComponent
   ]
 })
 export class CoreModule {
