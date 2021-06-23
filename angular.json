@@ -5,7 +5,7 @@
       "projectType": "application",
       "root": "apps/dashboard",
       "sourceRoot": "apps/dashboard/src",
-      "prefix": "vox-victoria",
+      "prefix": "dash",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
