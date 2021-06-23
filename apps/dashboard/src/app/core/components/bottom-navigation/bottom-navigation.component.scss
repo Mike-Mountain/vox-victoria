@@ -1,0 +1,19 @@
+.bottom-nav {
+  align-items: flex-end;
+}
+
+.settings {
+  height: 2rem;
+  width: 2rem;
+}
+
+.reddit {
+  background-color: rgba(255, 255, 255, 0.6); // TODO: Make this a css variable
+  .mat-icon {
+    height: 4rem;
+    width: 4rem;
+  }
+  .material-icons {
+    font-size: 4rem;
+  }
+}

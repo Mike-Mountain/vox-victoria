@@ -1,5 +1,6 @@
 .app-layout {
   height: 100%;
   display: grid;
-  grid-template-rows: 4rem 1fr 4rem;
+  grid-template-rows: max-content 1fr max-content;
+  background: url("../../../../assets/images/forestMountains.png") center/cover no-repeat;
 }

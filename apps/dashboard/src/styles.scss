@@ -37,3 +37,47 @@ $dashboard-theme: mat.define-light-theme((
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+h1, h2, h3, h4, h5, h6, p, a, button {
+  margin: 0 !important;
+}
+
+// TODO: Find a better place for this
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: .75rem; // TODO: Make this a css variable
+}
+
+.nav-item {
+  color: white; // TODO: make this a css variable
+  //background-color: rgba(255, 255, 255, 0.4); // TODO: Make this a css variable
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  border-radius: 10px; // TODO: make this a css variable
+  width: 6rem;
+  height: 2rem;
+  padding: .75rem; // TODO: make this a css variable
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .2s ease;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); // TODO: Make this a css variable
+  }
+  &:active {
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4); // TODO: Make this a css variable
+  }
+}
+
+.circular {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // TEMPORARY
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}

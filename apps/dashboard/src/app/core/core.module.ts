@@ -7,6 +7,7 @@ import { AppRoutingModule } from '../app-routing.module';
 import { LayoutComponent } from './components/layout/layout.component';
 import { TopNavigationComponent } from './components/top-navigation/top-navigation.component';
 import { BottomNavigationComponent } from './components/bottom-navigation/bottom-navigation.component';
+import { MatIconModule } from '@angular/material/icon';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { BottomNavigationComponent } from './components/bottom-navigation/bottom
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    environment.production ? [] : AkitaNgDevtools.forRoot()
+    environment.production ? [] : AkitaNgDevtools.forRoot(),
+    MatIconModule
   ],
   exports: [
     BrowserModule,
