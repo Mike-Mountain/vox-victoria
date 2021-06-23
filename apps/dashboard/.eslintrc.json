@@ -13,7 +13,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "voxVictoria",
+            "prefix": "dash",
             "style": "camelCase"
           }
         ],
@@ -21,7 +21,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "vox-victoria",
+            "prefix": "dash",
             "style": "kebab-case"
           }
         ]

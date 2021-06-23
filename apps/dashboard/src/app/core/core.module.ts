@@ -5,10 +5,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { environment } from '../../environments/environment';
 import { AkitaNgDevtools } from '@datorama/akita-ngdevtools';
 import { AppRoutingModule } from '../app-routing.module';
+import { LayoutComponent } from './components/layout/layout.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    LayoutComponent
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -19,7 +22,8 @@ import { AppRoutingModule } from '../app-routing.module';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    environment.production ? [] : AkitaNgDevtools
+    environment.production ? [] : AkitaNgDevtools,
+    LayoutComponent
   ]
 })
 export class CoreModule {
