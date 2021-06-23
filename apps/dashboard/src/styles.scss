@@ -44,8 +44,8 @@ h1, h2, h3, h4, h5, h6, p, a, button {
 
 // TODO: Find a better place for this
 .navigation {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   padding: .75rem; // TODO: Make this a css variable
 }
 
@@ -80,4 +80,22 @@ h1, h2, h3, h4, h5, h6, p, a, button {
   align-items: center;
   // TEMPORARY
   border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
