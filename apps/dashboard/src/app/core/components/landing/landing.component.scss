@@ -6,7 +6,7 @@
 }
 
 .time {
-  font-size: 8rem;
+  font-size: 8rem; // TODO: Make this a percentage
   height: 8rem;
   position: relative;
   top: 3rem;
@@ -15,7 +15,7 @@
 }
 
 .greeting {
-  font-size: 3rem;
+  font-size: 3rem; // TODO: Make this a percentage
   height: 3rem;
   color: white;
   text-shadow: 0 2px rgba(0, 0, 0, 0.4); // TODO: Use the css variable
@@ -33,9 +33,9 @@
 
 .search {
   margin-top: 2rem;
-  height: 12rem;
+  //height: 12rem;
 }
 
 .bookmarks {
-  height: 10rem;
+  //height: 10rem;
 }

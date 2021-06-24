@@ -10,10 +10,10 @@
 .reddit {
   background-color: rgba(255, 255, 255, 0.6); // TODO: Make this a css variable
   .mat-icon {
-    height: 4rem;
-    width: 4rem;
+    height: 4rem; // TODO: Make this a percentage
+    width: 4rem; // TODO: Make this a percentage
   }
   .material-icons {
-    font-size: 4rem;
+    font-size: 4rem; // TODO: Make this a percentage
   }
 }
