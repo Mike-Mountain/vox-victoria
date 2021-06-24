@@ -24,7 +24,7 @@
 }
 
 // TEMPORARY. TODO: Delete
-.search, .bookmarks, .quote {
+.bookmarks, .quote {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,8 +32,8 @@
 }
 
 .search {
-  margin-top: 2rem;
-  //height: 12rem;
+  margin: auto;
+  width: 85%;
 }
 
 .bookmarks {

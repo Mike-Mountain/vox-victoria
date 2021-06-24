@@ -1,0 +1,15 @@
+<section class='search-container'>
+  <mat-icon class='search-icon'>search</mat-icon>
+  <input
+    class='search-input'
+    type='search'
+    [(ngModel)]='searchText'
+    >
+  <a
+    class='search-button'
+    target='_blank'
+    [href]="'https://google.com/search?q=' + searchText"
+  >
+    Search
+  </a>
+</section>

@@ -9,6 +9,7 @@ import { TopNavigationComponent } from './components/top-navigation/top-navigati
 import { BottomNavigationComponent } from './components/bottom-navigation/bottom-navigation.component';
 import { MatIconModule } from '@angular/material/icon';
 import { LandingComponent } from './components/landing/landing.component';
+import { SearchModule } from '../search/search.module';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { LandingComponent } from './components/landing/landing.component';
     BrowserAnimationsModule,
     AppRoutingModule,
     environment.production ? [] : AkitaNgDevtools.forRoot(),
-    MatIconModule
+    MatIconModule,
+    SearchModule
   ],
   exports: [
     // Modules:
