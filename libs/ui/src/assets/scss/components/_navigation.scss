@@ -1,0 +1,27 @@
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: var(--padding-lg);
+}
+
+.nav-item {
+  color: var(--text);
+  background-color: var(--transparent-bg-light-md);
+  text-shadow: var(--text-shadow);
+  text-decoration: none;
+  border-radius: var(--border-radius);
+  width: 6rem;
+  height: 2rem;
+  padding: var(--padding-lg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .2s ease;
+  cursor: pointer;
+  &:hover {
+    box-shadow: var(--simple-box-shadow);
+  }
+  &:active {
+    box-shadow: var(--simple-box-shadow-inset);
+  }
+}

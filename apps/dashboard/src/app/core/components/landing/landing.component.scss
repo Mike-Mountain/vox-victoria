@@ -6,19 +6,19 @@
 }
 
 .time {
-  font-size: 8rem; // TODO: Make this a percentage
+  font-size: 800%;
   height: 8rem;
   position: relative;
   top: 3rem;
   color: white;
-  text-shadow: 0 2px rgba(0, 0, 0, 0.4); // TODO: Use the css variable
+  text-shadow: var(--text-shadow);
 }
 
 .greeting {
-  font-size: 3rem; // TODO: Make this a percentage
+  font-size: 300%;
   height: 3rem;
   color: white;
-  text-shadow: 0 2px rgba(0, 0, 0, 0.4); // TODO: Use the css variable
+  text-shadow: var(--text-shadow);
   position: relative;
   top: -.5rem;
 }
@@ -34,8 +34,4 @@
 .search {
   margin: auto;
   width: 85%;
-}
-
-.bookmarks {
-  //height: 10rem;
 }

@@ -3,17 +3,22 @@
 }
 
 .settings {
-  height: 2rem;
-  width: 2rem;
+  height: 2rem !important;
+  width: 2rem !important;
 }
 
 .reddit {
-  background-color: rgba(255, 255, 255, 0.6); // TODO: Make this a css variable
+  background-color: var(--transparent-bg-light-md);
   .mat-icon {
-    height: 4rem; // TODO: Make this a percentage
-    width: 4rem; // TODO: Make this a percentage
+    height: 100%;
+    width: 100%;
   }
   .material-icons {
-    font-size: 4rem; // TODO: Make this a percentage
+    font-size: 450%;
   }
+}
+
+.circular {
+  height: 4rem;
+  width: 4rem;
 }

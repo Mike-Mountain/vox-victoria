@@ -1,0 +1,17 @@
+@import "../theme/palettes/primary";
+@import "../theme/palettes/accent";
+@import "../theme/palettes/warn";
+
+$primary: map-get($ui-primary, 500);
+$accent: map-get($ui-accent, 500);
+$warn: map-get($ui-warn, 500);
+
+:root {
+  --primary: #{$primary};
+  --accent: #{$accent};
+  --warn: #{$warn};
+
+  --transparent-bg-light-sm: rgba(255, 255, 255, 0.25);
+  --transparent-bg-light-md: rgba(255, 255, 255, 0.5);
+  --transparent-bg-light-lg: rgba(255, 255, 255, 0.75);
+}
