@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Vox Victoria",
+  "version": "0.0.1",
+  "description": "Personalized Tab page",
+  "author": "Michael Mountain",
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self' "
+  },
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}

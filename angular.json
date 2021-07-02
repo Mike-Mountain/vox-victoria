@@ -19,9 +19,12 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "apps/dashboard/src/favicon.ico",
-              "apps/dashboard/src/assets"
+              "apps/dashboard/src/assets",
+              "apps/dashboard/src/manifest.json"
             ],
-            "styles": ["apps/dashboard/src/styles.scss"],
+            "styles": [
+              "apps/dashboard/src/styles.scss",
+            ],
             "scripts": []
           },
           "configurations": {

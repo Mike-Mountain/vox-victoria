@@ -9,6 +9,7 @@
     "start": "ng serve",
     "dash:dev": "ng serve dashboard -c dev --port=3200",
     "build": "ng build",
+    "build:dash": "ng build dashboard",
     "test": "ng test",
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
