@@ -9,4 +9,10 @@ export class SearchComponent {
 
   public searchText: string | undefined;
 
+  search() {
+    let url = 'https://google.com/search?q=';
+    const searchValue = this.searchText?.split(" ").join("+");
+    url += searchValue;
+    window.open(url, '_blank');
+  }
 }

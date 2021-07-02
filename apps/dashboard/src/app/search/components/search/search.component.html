@@ -3,13 +3,16 @@
   <input
     class='search-input'
     type='search'
+    name='q'
     [(ngModel)]='searchText'
     >
-  <a
+  <button
+    mat-raised-button
+    color='primary'
     class='search-button'
-    target='_blank'
-    [href]="'https://google.com/search?q=' + searchText"
+    [disabled]='!searchText || searchText === ""'
+    (click)='search()'
   >
     Search
-  </a>
+  </button>
 </section>

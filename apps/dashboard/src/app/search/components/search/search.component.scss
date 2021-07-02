@@ -20,13 +20,17 @@
 .search-input {
   border: none;
   background-color: var(--transparent-bg-light-lg);
-  color: var(--text);
-  box-shadow: var(--simple-box-shadow-inset);
+  color: var(--primary);
+  box-shadow: var(--simple-box-shadow);
   border-radius: var(--border-radius);
   width: 60%;
   height: 3rem;
   font-size: 1.25rem;
   padding: var(--padding-sm) var(--padding-md) var(--padding-sm) 3rem;
+  &:focus {
+    outline: none;
+    box-shadow: var(--simple-box-shadow-inset);
+  }
 }
 
 .search-button {
@@ -35,7 +39,7 @@
   height: 2.75rem;
   border: none;
   border-radius: var(--border-radius);
-  background-color: var(--transparent-bg-light-md);
+  //background-color: var(--transparent-bg-light-md);
   display: flex;
   justify-content: center;
   align-items: center;
