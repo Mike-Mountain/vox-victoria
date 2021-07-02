@@ -1,0 +1,21 @@
+:root {
+  --transparent-bg-light-sm: rgba(255, 255, 255, 0.25);
+  --transparent-bg-light-md: rgba(255, 255, 255, 0.5);
+  --transparent-bg-light-lg: rgba(255, 255, 255, 0.75);
+
+  --transparent-bg-dark-sm: rgba(0, 0, 0, 0.25);
+  --transparent-bg-dark-md: rgba(0, 0, 0, 0.5);
+  --transparent-bg-dark-lg: rgba(0, 0, 0, 0.75);
+
+  --transparent-bg-primary-sm: rgba(var(--primaryValues), 0.25);
+  --transparent-bg-primary-md: rgba(var(--primaryValues), 0.5);
+  --transparent-bg-primary-lg: rgba(var(--primaryValues), 0.75);
+
+  --transparent-bg-accent-sm: rgba(var(--accentValues), 0.25);
+  --transparent-bg-accent-md: rgba(var(--accentValues), 0.5);
+  --transparent-bg-accent-lg: rgba(var(--accentValues), 0.75);
+
+  --transparent-bg-warn-sm: rgba(var(--warnValues), 0.25);
+  --transparent-bg-warn-md: rgba(var(--warnValues), 0.5);
+  --transparent-bg-warn-lg: rgba(var(--warnValues), 0.75);
+}

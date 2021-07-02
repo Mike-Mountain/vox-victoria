@@ -36,6 +36,18 @@
   text-align: center !important
 }
 
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.text-accent {
+  color: var(--accent) !important;
+}
+
+.text-warn {
+  color: var(--warn) !important;
+}
+
 .text-monospace {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace
 }

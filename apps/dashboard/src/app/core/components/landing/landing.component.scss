@@ -10,15 +10,14 @@
   height: 8rem;
   position: relative;
   top: 3rem;
-  color: white;
   text-shadow: var(--text-shadow);
 }
 
 .greeting {
   font-size: 300%;
   height: 3rem;
-  color: white;
   text-shadow: var(--text-shadow);
+  color: var(--text);
   position: relative;
   top: -.5rem;
 }

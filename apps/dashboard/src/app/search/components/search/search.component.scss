@@ -46,10 +46,10 @@
   text-decoration: none;
   color: var(--text);
   text-shadow: var(--text-shadow);
-  &:hover {
+  &:hover:not([disabled]) {
     box-shadow: var(--simple-box-shadow);
   }
-  &:active {
+  &:active:not([disabled]) {
     box-shadow: var(--simple-box-shadow-inset);
   }
 }

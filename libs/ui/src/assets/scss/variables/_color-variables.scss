@@ -11,7 +11,7 @@ $warn: map-get($ui-warn, 500);
   --accent: #{$accent};
   --warn: #{$warn};
 
-  --transparent-bg-light-sm: rgba(255, 255, 255, 0.25);
-  --transparent-bg-light-md: rgba(255, 255, 255, 0.5);
-  --transparent-bg-light-lg: rgba(255, 255, 255, 0.75);
+  --primaryValues: 255, 124, 0;
+  --accentValues: 0, 98, 133;
+  --warnValues: 180, 0, 0;
 }
