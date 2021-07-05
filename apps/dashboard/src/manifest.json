@@ -4,10 +4,9 @@
   "version": "0.0.1",
   "description": "Personalized Tab page",
   "author": "Michael Mountain",
-  "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self' "
-  },
-  "chrome_url_overrides" : {
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "content_scripts": [ {"js": [ "index.html" ], "matches": [ "http://*/" ]} ],
+  "chrome_url_overrides": {
     "newtab": "index.html"
   },
   "permissions": [
