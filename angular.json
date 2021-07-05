@@ -23,7 +23,7 @@
               "apps/dashboard/src/manifest.json"
             ],
             "styles": [
-              "apps/dashboard/src/styles.scss",
+              "apps/dashboard/src/styles.scss"
             ],
             "scripts": []
           },
@@ -73,7 +73,8 @@
               "browserTarget": "dashboard:build:production"
             },
             "dev": {
-              "browserTarget": "dashboard:build:dev"
+              "browserTarget": "dashboard:build:dev",
+              "proxyConfig": "./proxy-quotes.conf.json"
             }
           },
           "defaultConfiguration": "development"

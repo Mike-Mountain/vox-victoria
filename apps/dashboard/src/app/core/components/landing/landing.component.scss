@@ -10,7 +10,7 @@
   height: 8rem;
   position: relative;
   top: 3rem;
-  text-shadow: var(--text-shadow);
+  text-shadow: 0 0 15px var(--primary), var(--text-shadow);
 }
 
 .greeting {

@@ -10,6 +10,8 @@ import { BottomNavigationComponent } from './components/bottom-navigation/bottom
 import { MatIconModule } from '@angular/material/icon';
 import { LandingComponent } from './components/landing/landing.component';
 import { SearchModule } from '../search/search.module';
+import { QuotesModule } from '../quotes/quotes.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -22,15 +24,18 @@ import { SearchModule } from '../search/search.module';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     AppRoutingModule,
     environment.production ? [] : AkitaNgDevtools.forRoot(),
     MatIconModule,
-    SearchModule
+    SearchModule,
+    QuotesModule
   ],
   exports: [
     // Modules:
     BrowserModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     AppRoutingModule,
     environment.production ? [] : AkitaNgDevtools,
 
